@@ -39,12 +39,9 @@ Face-Detection-System/
 │ ├── 03_marked1.jpg # Haar 检测标记结果  
 │ └── 04_marked2.jpg # DNN 检测标记结果  
 │  
-├── samples/ # 测试样例目录（可选）  
-│  ├── test_image.jpg  
-│  └── test_video.mp4  
-│  
-└──docs/  
-    └── demo.gif #效果演示
+└── samples/ # 测试样例目录（可选）  
+  ├── test_image.zip 
+  └── test_video.mp4  
 
 ## 环境安装
 1. 克隆仓库到本地：
