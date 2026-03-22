@@ -32,8 +32,8 @@ def  detect_faces2(image):# ：DNN检测
     dnn_faces = []
     try:
         net = cv2.dnn.readNetFromCaffe(
-            "deploy.prototxt",
-            "res10_300x300_ssd_iter_140000.caffemodel")
+            "models/deploy.prototxt",
+            "models/res10_300x300_ssd_iter_140000.caffemodel")
         if not os.path.exists("deploy.prototxt") or not os.path.exists("res10_300x300_ssd_iter_140000.caffemodel"):
             print("警告: 未找到DNN模型文件，将仅使用Haar级联检测器")
         (h, w) = image.shape[:2]
