@@ -33,15 +33,18 @@ Face-Detection-System/
 │ └── res10_300x300_ssd_iter_140000.caffemodel # 预训练权重  
 │  
 ├── results/ # 检测结果输出目录（自动生成）  
-│ └── 20241201_143052/ # 按时间戳命名的结果文件夹  
+│ ├── 20241201_143052/ # 按时间戳命名的结果文件夹  
 │ ├── 01_original_with_hist.jpg # 原始图像+直方图  
 │ ├── 02_enhanced.jpg # 增强后图像  
 │ ├── 03_marked1.jpg # Haar 检测标记结果  
 │ └── 04_marked2.jpg # DNN 检测标记结果  
 │  
-└── samples/ # 测试样例目录（可选）  
-├── test_image.jpg  
-└── test_video.mp4  
+├── samples/ # 测试样例目录（可选）  
+│  ├── test_image.jpg  
+│  └── test_video.mp4  
+│  
+└──docs/  
+    └── demo.gif #效果演示
 
 ## 环境安装
 1. 克隆仓库到本地：
